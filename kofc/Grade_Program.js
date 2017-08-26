@@ -19,8 +19,12 @@ var mapping = {
     0,
     'entry.1724335898'
   ],
-  'MainContent_ddlProgramActivity': [
-    1,
+  'MainContent_lblProgramNumber': [
+    0,
+    'entry.1996594437'
+  ],
+  'MainContent_lblProgramActivity': [
+    0,
     'entry.679715797'
   ],
   'MainContent_lblActivityDescription': [
@@ -39,10 +43,18 @@ var mapping = {
     0,
     'entry.1865331027'
   ],
+  'MainContent_lblCreatedBy': [
+    0,
+    'entry.1202949471'
+  ],
+  'MainContent_lblCreatedDate': [
+    0,
+    'entry.994301388'
+  ],
   'MainContent_lblSubmittedBy': [
     0,
     'entry.162750060'
-  ],
+  ],  
   'MainContent_lblSubmittersPhone': [
     0,
     'entry.2069050653'
@@ -57,17 +69,11 @@ var mapping = {
   ]
 };
 var activities = {
-  '90': '23 - Special Olympics',
-  '91': '24 - Knight Of The Year',
-  '92': '25 - Ladies Appreciation',
-  '93': '26 - Participate in a State Activity',
-  '94': '27 - Council Newsletter or Website',
-  '95': '28 - Multiple Council Activity',
-  '96': '29 - Host a Speaker',
-  '97': '30 - Submit a Buckeye Bulletin Article',
-  '98': '31 - Lady of the Year',
-  '99': '32 - Council Council Choice',
-  '142': '33 - Council Council Choice'
+  '21': '21 - Family of the Year',
+  '22': '22 - State Matching Funds Participation',
+  '23': '23 - Council Choice',
+  '24': '24 - Council Choice',
+  '25': '25 - Council Choice'
 };
 var statuses = {
   '1': 'Pending',
@@ -121,7 +127,7 @@ $(function ()
   var councilRows = $(".gdvGradePrograms tr").filter(function()
                                    {
                                       return $(this).find('td').filter(function () {
-                                         return $(this).text() == 'Council';
+                                         return $(this).text() == 'Family';
                                       }).length > 0;
                                    });
   councilRows.each(function(i, row)
