@@ -66,6 +66,10 @@ var mapping = {
   'MainContent_cboProgramStatus': [
     2,
     'entry.870225342'
+  ],
+  'MainContent_txtProgramPointsAwarded': [
+    0,
+    'entry.1369105422'
   ]
 };
 var activities = {
