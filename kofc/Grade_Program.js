@@ -59,6 +59,10 @@ var mapping = {
     0,
     'entry.2069050653'
   ],
+  'MainContent_lblSubmittersEmail': [
+    0,
+    'entry.1122200483'
+  ],
   'MainContent_txtProgramFeedback': [
     3,
     'entry.340781351'
@@ -68,7 +72,7 @@ var mapping = {
     'entry.870225342'
   ],
   'MainContent_txtProgramPointsAwarded': [
-    0,
+    3,
     'entry.1369105422'
   ]
 };
